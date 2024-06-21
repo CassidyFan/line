@@ -44,7 +44,7 @@
     ```
 
 ## 授權條款 📜
-- 政府資料開放平台 : 藝文活動-節慶專區
+- 政府資料開放平台 : 藝文活動 - 節慶專區
 - JSON 檔 : https://cloud.culture.tw/frontsite/trans/SearchShowAction.do?method=doFindFestivalTypeJ
 - 相關網址 :
 - http://goo.gl/PGqEBv
