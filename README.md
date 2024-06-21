@@ -1,7 +1,15 @@
-ID:@297btejz
-# Line Bot 附近地點功能
+# Festival Searcher 🌟
 
-此 Line Bot 允許用戶傳送他們的位置，並接收附近的地點資訊。此機器人使用 LINE Messaging API 及基於位置的服務來查找並返回附近地點的資訊。
+- Festival Searcher 允許用戶傳送他們的位置，並接收附近的節慶活動地點資訊。
+- 使用 LINE Messaging API 及基於位置的服務來查找並返回附近節慶活動地點的資訊。
+## 目標群體
+
+適合想參加當地的特別慶典活動，但卻不知道從哪取得資訊的人。
+## 📞ID
+@297btejz
+
+## QRcode
+![Line Bot](https://yourimageurl.com/line-bot.png)
 
 ## 功能
 
@@ -61,5 +69,3 @@ ID:@297btejz
 ## 程式碼說明
 
 ### `index.js`
-
-```javascript
