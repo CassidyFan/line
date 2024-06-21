@@ -5,10 +5,10 @@
 ## 目標群體
 
 適合想參加當地特別的慶典活動，但卻不知道從哪取得資訊的人。
-## ID 
+## 📧 ID 
 @297btejz
 
-## 📱QRcode
+## 📱 QRcode
 ![Line Bot](https://raw.githubusercontent.com/CassidyFan/line/main/images/QRcode.jpg)
 
 ## 功能
