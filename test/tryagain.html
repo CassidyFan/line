@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const axios = require('axios');
+
+async function sendWebhook() {
+    let retries = 3;
+    while (retries > 0) {
+        try {
+            const response = await axios.post('https://9m7q7jmb-3000.asse.devtunnels.ms/', {
+                key1: 'value1',
+                key2: 'value2'
+            }, {
+                timeout: 5000 // 5 seconds
+            });
+            console.log(response.data);
+            break; // 請求成功，跳出循環
+        } catch (error) {
+            console.error('Error:', error.message);
+            retries -= 1;
+            if (retries > 0) {
+                console.log(`Retrying... (${retries} retries left)`);
+            } else {
+                console.error('All retries failed.');
+            }
+        }
+    }
+}
+
+sendWebhook();
+
+    </script>
+</body>
+</html>
